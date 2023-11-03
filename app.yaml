@@ -4,7 +4,7 @@ handlers:
 - url: /styles
   static_dir: dist
   
-- url: /img/(.*\.(gif|png|jpg))
+- url: /imgges/(.*\.(gif|png|jpg))
   static_files: images/\1
   upload: images/(.*\.(gif|png|jpg))
   
