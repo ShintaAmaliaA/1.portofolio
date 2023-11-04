@@ -1,7 +1,7 @@
 runtime: php74
 
 handlers:
-- url: /styles
+- url: /dist/css
   static_dir: dist/css
 
 - url: /dist/images
