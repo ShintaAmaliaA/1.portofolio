@@ -2,9 +2,9 @@ runtime: php74
 
 handlers:
 - url: /styles
-  static_dir: dist
+  static_dir: dist/css
   
-- url: /imgges/(.*\.(gif|png|jpg))
+- url: /dist/imges/(.*\.(gif|png|jpg))
   static_files: images/\1
   upload: images/(.*\.(gif|png|jpg))
   
